@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+nav{
+	height:100px;
+	width:100%;
+	background-color:#1ba4ee;
+	padding-top: 3vw;
+
+}
+a{
+	text-decoration: none;
+}
+nav a .jt{
+	display: block;
+	width: 4vw;
+	float: left;
+	margin-left: 3vw;
+	
+}
+nav h3{
+	display: block;
+	width: 7vw;
+	margin-left:20vw; 
+	font-size: 3vw;
+	color: #fff;
+}
+input{
+/*	border: none;*/
+	height: 10vw;
+	width: 60%;
+	border: none;
+
+}
+.input-o{
+	padding-left: 20vw;
+	height: 10vw;
+	margin-top: 3vw;
+	background: url(../imgs/zh.gif) 7vw 3vw no-repeat;
+	background-size:3vw 4vw;
+	border: 0.1vw #faf9f9 solid;
+}
+.input-t{
+	padding-left: 20vw;
+	height: 10vw;
+	background: url(../imgs/mima.gif) 7vw 3vw no-repeat;
+	background-size:3vw 4vw;
+	border: 0.1vw #faf9f9 solid;
+	margin-bottom: 3vw;
+}
+button{
+	display: block;
+	width: 80%;
+	height: 10vw;
+	background-color: #1ca9f4;
+	border-radius: 1vw;
+	font-size: 3vw;
+	margin: 0 auto;
+}
+.gray{
+	display: flex;
+	justify-content: space-between;
+	font-size: 3vw;
+	padding: 0 1vw;
+	margin-bottom: 30vw;
+
+}
+.gray a{
+	color: gray;
+}
+.sf{
+	display: block;
+	width: 38vw;
+	font-size:3vw; 
+	margin: 0 auto;
+	color: gray;
+}
+.ico{
+	display: flex;
+	justify-content: space-around;
+	padding: 10vw;
+}
+.ico div{
+	width: 12vw;
+	height: 30vw;
+}
+.ico div h3,.ico div img {
+	display: block;
+	width: 12vw;
+	text-align: center;
+}
