@@ -1,0 +1,127 @@
+header.container{
+	background: #5fc0cd;
+	padding: 1% 0 1% 0;
+	/*position: fixed;*/
+	margin: 0;
+	width: 100%;
+	font-size: 2vw;
+	
+}
+header .find{
+	background: #55a8b3;
+	border-radius: 8px;
+
+}
+header .find .row .one{
+	background: #55a8b3;
+	border:#55a8b3; 
+	border-radius: 8px;
+	font-size: 24px;
+	padding: 1%;
+}
+header .find .row .two{
+	border-radius: 8px;
+	background: #fff;
+	border:#fff;
+	font-size: 24px;
+	padding: 1%;
+}
+header a img{
+	width: auto;
+	height: 40px;
+	margin: auto;
+}
+.nav div{
+	width: 33.333%;
+}
+.nav div button,.nav div ul{
+	width: 100%;
+	text-align: center;
+	border-radius: 0;
+	border-right: none;
+	font-size: 24px;
+	padding:2% 0 2% 0;
+}
+.nav{
+	display: flex;
+	justify-content: space-around;
+}
+.nav div button{
+	background: url(../images/down.gif) 90% center no-repeat;
+}
+.content{
+	display: flex;
+	justify-content: space-around;
+	height: 15vw;
+	padding-top: 2vw;
+	padding-bottom: 2vw;
+	border-bottom:  0.1vw  solid #e1e5e7;
+	font-size: 2vw;
+
+}
+.content .left{
+	text-indent: 5vw;
+}
+
+.content div{
+	width: 40vw;
+}
+.content .money{
+	text-align: center;
+	line-height: 10vw;
+	color: red;
+	
+}
+/*.content p{
+	line-height: 5vw;
+}*/
+.content .service{
+	background: url(../images/time.gif) no-repeat;
+	background-position: 0.1vw center;
+	background-size: 3vw;
+	color: #999;
+	
+}
+.content .mail{
+	background: url(../images/zb-1.gif) no-repeat;
+	background-position: 0.1vw center;
+	background-size: 2vw;
+	color: #999;
+}
+#footer{
+	display: flex;
+	justify-content:space-around;
+	height: 7vw;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	background: #f8fafb;
+	font-size: 2.1vw;
+
+}
+
+#footer div .pen{
+	width: 7vw;
+	height: 7vw;
+}
+#footer .index{
+	color: #5fc0cd;
+	padding-top: 0.5vw;
+}
+#footer a  p{
+	margin: 0;
+	padding: 0;
+} 
+#footer .me{
+	color: #999;
+	padding-top: 0.5vw;
+	
+}
+#footer a div{
+	
+	/*height: 7vw;*/
+}
+#footer a img{
+	
+	width: 4vw;
+}
